@@ -1,0 +1,363 @@
+<body>
+    <!--头部-->
+<div id="header">
+    <div class="hea_c">
+        <div class="logo">
+            <a href="http://www.12365auto.com">
+                <img src="/x_images/logo.jpg" /></a></div>
+        <div class="nav">
+            <div class="nav_t" id="loginState">
+            </div>
+            <div class="nav_b">
+                <ul>
+                    <li onmouseover="show11(this)" onmouseout="hideChnne11()"><a href="http://www.12365auto.com/all/index.shtml" target="_blank" class="first" id='header-channel1'>资讯<span></span></a>
+                        <ul class="x_nav" id="none1" onmouseover="showChnne11()">
+                            <li><a href="http://www.12365auto.com/news/index.shtml" target="_blank">行业</a>|</li>
+                            <li><a href="http://www.12365auto.com/xcdg/index.shtml" target="_blank">新车</a>|</li>
+                            <li><a href="http://www.12365auto.com/dz/index.shtml" target="_blank">谍照</a>|</li>
+                            <li><a href="http://www.12365auto.com/dg/index.shtml" target="_blank">导购</a>|</li>
+                            <li><a href="http://www.12365auto.com/ucar/index.shtml" target="_blank">用车</a>|</li>
+                            <li><a href="http://www.12365auto.com/parts/index.shtml" target="_blank">零部件</a>|</li>
+                            <li><a href="http://www.12365auto.com/zhgg/index.shtml" target="_blank">召回</a>|</li>
+                            <li><a href="http://www.12365auto.com/fxbg/index.shtml" target="_blank">分析报告</a>|</li>
+                            <li><a href="http://www.12365auto.com/tsxlb/index.shtml" target="_blank">投诉销量比</a>|</li>
+                            <li><a href="http://www.12365auto.com/zlpl/index.shtml" target="_blank">专栏</a></li>
+                        </ul>
+                    </li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel2" href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-0-1.shtml"
+                        target="_blank">投诉</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel3" href="http://www.12365auto.com/dcbg/index.shtml"
+                        target="_blank">缺陷报道</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel4" href="http://www.12365auto.com/ranking/" target="_blank">
+                        排行榜</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel5" href="http://www.12365auto.com/tsdb/tsdb.shtml"
+                        target="_blank">车型对比</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel6" href="http://www.12365auto.com/scbg/jp-0-0-0--1-0-1.shtml"
+                        target="_blank">评测</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel7" href="http://www.12365auto.com/carowners/index.shtml"
+                        target="_blank">新车调查</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel8" href="http://www.12365auto.com/zjdy/index.shtml"
+                        target="_blank">答疑</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel9" href="http://www.12365auto.com/review/kb.shtml"
+                        target="_blank">口碑</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel10" href="http://www.12365auto.com/tpxw/index.shtml"
+                        target="_blank">图片</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel11" href="http://www.12365auto.com/video/index.shtml"
+                        target="_blank">视频</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel12" href="http://www.12365auto.com/dealer/index.aspx"
+                        target="_blank">经销商点评</a></li>
+                    <li onmouseover="colseNavigation()"><a id="header-channel13" href="http://bbs.12365auto.com"
+                        target="_blank">论坛</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+                                                        function show11(o){
+                                                                var className = $("#header-channel1").attr("class");
+                                                                document.getElementById('none1').style.display='block';
+                                                                if(className!="first item-current")
+                                                                document.getElementById('header-channel1').className='first zix';
+                                                                }
+                                                         function colseNavigation(){
+                                                                var className = $("#header-channel1").attr("class");
+                                                                document.getElementById('none1').style.display='none';
+                                                                if(className!="first item-current")
+                                                                document.getElementById('header-channel1').className='first';
+                                                                }
+
+                                                        function hideChnne11(){
+                                                                 var className = $("#header-channel1").attr("class");
+                                                                 if(className!="first item-current")
+                                                                 document.getElementById('header-channel1').className=className;
+                                                                }
+                                                        function showChnne11(){
+                                                                var className = $("#header-channel1").attr("class");
+                                                                if(className!="first item-current")
+                                                                document.getElementById('header-channel1').className='first zix';
+                                                                }
+
+                        </script>
+    <!--中间-->
+    <div id="content">
+        <!--当前位置-->
+        <div class="dqwz">
+            当前位置：<a href="http://www.12365auto.com">网站首页</a> > <span>投诉</span>
+        </div>
+        <!--内容第一板块-->
+        <div class="sstj">
+            <div class="xztj">
+                <dl>
+                    <dd class="cx">
+                        <select id="brands">
+                        </select>
+                        <select id="series">
+                        </select>
+                        <select id="models">
+                        </select>
+                    </dd>
+                </dl>
+                <dl><dt>车型属性：</dt><dd><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-0-0-1.shtml" class="xz">不限 href="http://www.12365auto.com/zlts/0-0-0-1-0-0_0-0-0-1.shtml" >微型车</a><a href="http://www.12365auto.com/zlts/0-0-0-2-00-0-0-1.shtml" >小型车</a><a href="http://www.12365auto.com/zlts/0-0-0-3-0-0_0-0-0-1.shtml" >紧凑型车</a><a href="http://wwauto.com/zlts/0-0-0-4-0-0_0-0-0-1.shtml" >中型车</a><a href="http://www.12365auto.com/zlts/0-0-0-5-0-0_0-0-0-1.shtml" >中大><a href="http://www.12365auto.com/zlts/0-0-0-6-0-0_0-0-0-1.shtml" >大型车</a><a href="http://www.12365auto.com/zlts/0-0-0--0_0-0-0-1.shtml" >SUV</a><a href="http://www.12365auto.com/zlts/0-0-0-8-0-0_0-0-0-1.shtml" >MPV</a><a href="http://www.12365auto.com/zlts/0-0-0-9-0-0_0-0-0-1.shtml" >跑车</a><a href="http://www.12365auto.com/zlts/0-0-0-10-0-0_0-0-0-1.shtml" >微面><a href="http://www.12365auto.com/zlts/0-0-0-11-0-0_0-0-0-1.shtml" >其它</a><a href="http://www.12365auto.com/zlts/0-0-0-12-0-0_0-0-0-1.shtml" >新能源</a></dd></dl><dl><dt class="jj">出故障时间：</dt><dd><a href="http://www.12365auto.com/zlts/0-_0-0-0-1.shtml" class="xz">不限</a><a href="http://www.12365auto.com/zlts/0-0-0-0-1-0_0-0-0-1.shtml">1个月</a><a href="httpww.12365auto.com/zlts/0-0-0-0-2-0_0-0-0-1.shtml">1-3个月</a><a href="http://www.12365auto.com/zlts/0-0-0-0-3-0_0-0-0-1.shtm>3-6个月</a><a href="http://www.12365auto.com/zlts/0-0-0-0-4-0_0-0-0-1.shtml">6-12个月</a><a href="http://www.12365auto.coms/0-0-0-0-5-0_0-0-0-1.shtml">1-3年</a><a href="http://www.12365auto.com/zlts/0-0-0-0-6-0_0-0-0-1.shtml">3年以上</a></dd></dl><dt>质量问题：</dt><dd><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-0-0-1.shtml" class="xz">不限</a><a href="http12365auto.com/zlts/0-0-0-0-0-1_0-0-0-1.shtml">发动机</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-2_0-0-0-1.shtml">变/a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-3_0-0-0-1.shtml">离合器</a><a href="http://www.12365auto.com/zlts/0-0-00-4_0-0-0-1.shtml">转向系统</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-5_0-0-0-1.shtml">制动系统</a><a href="http:365auto.com/zlts/0-0-0-0-0-6_0-0-0-1.shtml">轮胎</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-7_0-0-0-1.shtml">前后桥统</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-8_0-0-0-1.shtml">车身附件及电器</a></dd></dl><dl><dt>服务问题：</dt>http://www.12365auto.com/zlts/0-0-0-0-0-0_0-0-0-1.shtml" class="xz">不限</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0_0-1-0-1.shtml">服务态度</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-2-0-1.shtml">人员技术</a><a href="http://5auto.com/zlts/0-0-0-0-0-0_0-3-0-1.shtml">服务收费</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-4-0-1.shtml">承诺a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-5-0-1.shtml">销售欺诈</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0_0-6-0-1.shtml">配件争议</a><a href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-7-0-1.shtml">其他原因</a></dd></dl>
+            </div>
+            <div class="sxtj">
+                <dl>
+                    <dt>所选条件：</dt>
+                    <dd>
+
+                        <a href="/zlts/0-0-0-0-0-0_0-0-0-1.shtml" class="qctj">清除条件</a></dd>
+                </dl>
+            </div>
+            <div class="gjzss">
+                <form method="post" action="index.aspx" id="form1" name="form1">
+                <span>关键字搜索：</span>
+                <input type="text" id="wd" name="wd" value="" />
+                <input type="submit" value="搜索" id="gjz_sub" onmouseover="javascript:this.style.background='#E95B11'"
+                    onmouseout="javascript:this.style.background='#E97812'" />
+                <input type="hidden" id="hf_carPBrand" value="0" />
+                <input type="hidden" id="hf_carBrand" value="0" />
+                <input type="hidden" id="hf_carSeries" value="0" />
+                <input type="hidden" id="hf_carModels" value="0" />
+                <input type="hidden" id="hf_param" value="cb=0&cs=0&cm=0&ba=0&qt=0&z=0&zs=0&f=0&nt=0" />
+                </form>
+            </div>
+        </div>
+        <!--完成步骤-->
+        <div class="tsbz">
+            <img src="http://www.12365auto.com/x_images/tsbz.jpg"><a href="http://www.12365auto.com/complain/complain_index.aspx"><img
+                src="http://www.12365auto.com/x_images/ts_ico.gif" id="btnComplain"></a>
+        </div>
+        <!--第二版块-->
+        <div class="com_sec">
+            <div class="ts_t new_ts_t">
+                <a class="xz" href="http://www.12365auto.com/zlts/0-0-0-0-0-0_0-0-0-1.shtml">投诉列表</a><a href="http://ww365auto.com/zlts/0-0-0-0-0-0_0-0-1-1.shtml">投诉视频</a>
+            </div>
+            <div class="tslb_b">
+                <table cellpadding="0" cellspacing="0" class="ar_c ar_c1"><tr><th width="57">投诉编号</th><th width="91">投th>
+                <th width="91">投诉车系</th><th width="174">投诉车型</th><th width="166">问题简述</th><th width="233">典型问题</th>
+                <th wth><th width="86">投诉状态</th></tr>
+
+                <tr>
+                    <td>379858</td>
+                    <td>一汽-大众</td>
+                    <td bid="141" sid="234" mid="36518" fw="">高尔夫</款 280TSI DSG 舒适型 国V</td>
+                    <td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379858.shtml" target="_blank"高尔夫1200-1400转时方向盘震动</a></td>
+                    <td class="tsgztj">B95,</td>
+                    <td>2019-06-10</td>
+                    <td><img title="信息审核" src="/images>信息审核</em></td>
+                </tr>
+
+
+                <tr>
+                    <td>379855</td>
+                    <td>东风乘用车</td>
+                    <td bid="144" sid="1537" mid="32942" fw="服务态度">风神AX7</tT 自动 尊贵型</td>
+                    <td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379855.shtml" target="_blank">东风风神AX后不予解决      </a></td>
+                    <td class="tsgztj">A339,A34,I295,</td>
+                    <td>2019-06-10</td>
+                    <td><img title="信息审核" src="/images/zypg"><em>信息审核</em></td>
+                </tr>
+
+                <tr>
+                    <td>379853</td>
+                    <td>北京现代</td>
+                    <td bid="254" sid="1890" mid="25753" fw="">领动</td>
+                    <td> 自动 智炫·精英型</td>
+                    <td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379853.shtml" target="_blank">北京现安全隐患</a></td>
+                    <td class="tsgztj">D123,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审></tr><tr><td>379850</td><td>东风标致</td><td bid="130" sid="1069" mid="37084" fw="">标致308</td><td>2019款 1.6L 手动 时尚版ass="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379850.shtml" target="_blank">东风标致308新车500公里变速箱异响</ass="tsgztj">B33,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><t</td><td>东风标致</td><td bid="130" sid="125" mid="31506" fw="">标致408</td><td>2018款 350THP 自动 豪华版</td><td class="tsef="http://www.12365auto.com/zlts/20190610/379849.shtml" target="_blank">东风标致408副驾驶积水要求尽快解决</a></td><td clas,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379847</td><tdd><td bid="512" sid="2362" mid="35297" fw="人员技术">捷途X70</td><td>2018款 1.5T 手动 悦行版</td><td class="tsjs"><a href="2365auto.com/zlts/20190610/379847.shtml" target="_blank">捷途X70保养记录未予录入减震器及刹车异响</a></td><td class="tsgztj"</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379843</td><td>d><td bid="232" sid="1333" mid="27702" fw="">Yeti</td><td>2017款 TSI280 DSG 前行版</td><td class="tsjs"><a href="http://www65auto.com/zlts/20190610/379843.shtml" target="_blank">斯柯达Yeti变速箱故障灯亮存在质量问题</a></td><td class="tsgztj">B96,-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379836</td><td>北京汽车</td><tdid="1807" mid="24135" fw="">绅宝X25</td><td>2015款 1.5L 手动 精英型</td><td class="tsjs"><a href="http://www.12365auto.com/90610/379836.shtml" target="_blank">北汽绅宝X25发动机频繁故障要求处理   </a></td><td class="tsgztj">A45,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379831</td><td>东风标致</td><td bi"125" mid="20588" fw="">标致408</td><td>2015款 1.2T 自动 豪华版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts0/379831.shtml" target="_blank">东风标致408固特异轮胎侧面有明显的裂纹</a></td><td class="tsgztj">F100,</td><td>2019-06-10</="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379828</td><td>三菱（进口）</td><td bid="230" sid="72091" fw="">欧蓝德（进口）</td><td>2014款 2.4L CVT  四驱 豪华超值版 7座</td><td class="tsjs"><a href="http://www.12365auto.c/379828.shtml" target="_blank">进口三菱欧蓝德车内异味严重影响正常驾驶</a></td><td class="tsgztj">H185,</td><td>2019-06-10</信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379827</td><td>东风本田</td><td bid="119" sid="2050" mi="">本田UR-V</td><td>2017款 240TURBO CVT 两驱 经典版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/3tml" target="_blank">东风本田UR-V行驶过程中变速箱顿挫</a></td><td class="tsgztj">B19,</td><td>2019-06-10</td><td><img titleimages/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379826</td><td>东南汽车</td><td bid="147" sid="1990" mid="31944" fw="">东南DX3</td><td>2018款 1.5L 手动 豪华型</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379826.shtml" _blank">东南DX3驾驶侧风噪严重售后维修未解决问题 </a></td><td class="tsgztj">H164,</td><td>2019-06-10</td><td><img title="信审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379823</td><td>东风标致</td><td bid="130" sid="125" mid="26>标致408</td><td>2016款 1.6T 自动 豪华版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379823.shtml""_blank">东风标致408四条轮胎有开裂的现象</a></td><td class="tsgztj">F100,</td><td>2019-06-10</td><td><img title="信息审核" jpg"><em>信息审核</em></td></tr><tr><td>379822</td><td>奇瑞汽车</td><td bid="219" sid="1885" mid="29536" fw="">艾瑞泽5</td>.5L CVT 领潮版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379822.shtml" target="_blank">奇瑞艾瑞泽轴有生锈的现象</a></td><td class="tsgztj">H79,</td><td>2019-06-10</td><td><img title="处理反馈" src="/images/cjhf.jpg"><em>td></tr><tr><td>379821</td><td>一汽红旗</td><td bid="168" sid="2303" mid="34544" fw="">红旗H5</td><td>2018款 30TD 型动版</ts="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379821.shtml" target="_blank">一汽红旗H5变速箱顿挫车身异响行驶时跑ss="tsgztj">B19,D156,G56,G117,H146,H15,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核td></tr><tr><td>379819</td><td>众泰汽车</td><td bid="264" sid="1828" mid="31859" fw="配件争议">众泰Z700</td><td>2018款 1.8T00H</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379819.shtml" target="_blank">众泰Z700座椅松动一直></td><td class="tsgztj">H169,N318,</td><td>2019-06-10</td><td><img title="处理反馈" src="/images/cjhf.jpg"><em>处理反馈</e></td></tr><tr><td>379818</td><td>野马汽车</td><td bid="317" sid="2080" mid="29832" fw="">野马T80</td><td>2017款 1.5T 手动 td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379818.shtml" target="_blank">野马T80发动机电脑板电压不稳定><td class="tsgztj">A173,H110,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></ttr><td>379813</td><td>东风标致</td><td bid="130" sid="125" mid="20588" fw="其他原因">标致408</td><td>2015款 1.2T 自动 豪华版"tsjs"><a href="http://www.12365auto.com/zlts/20190610/379813.shtml" target="_blank">东风标致408发动机正时皮带掉毛要求处理<="tsgztj">A34,A336,O322,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr>379808</td><td>一汽-大众</td><td bid="141" sid="235" mid="17815" fw="">迈腾</td><td>2013款 1.8TSI 豪华型</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379808.shtml" target="_blank">一汽大众迈腾玻璃升降器内部钢丝断裂</a></ttj">H67,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379807<上汽红岩</td><td bid="0" sid="0" mid="0" fw="">上汽</td><td>红岩CQ5256ZL</td><td class="tsjs"><a href="http://www.12365autos/20190610/379807.shtml" target="_blank">上汽红岩自卸货车停放过程中突然自燃</a></td><td class="tsgztj">H40,</td><td>2019-06title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379805</td><td>东风日产</td><td bid="225" sid="2684" fw="">劲客</td><td>2017款 1.5L CVT 智行版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379805. target="_blank">东风日产劲客优科豪马轮胎侧面鼓包起皮</a></td><td class="tsgztj">F186,F39,</td><td>2019-06-10</td><td><img e="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379803</td><td>东风标致</td><td bid="130" sid="125" fw="">标致408</td><td>2016款 1.6T 自动 豪华版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379803.srget="_blank">东风标致408空调存在臭味一直未解决</a></td><td class="tsgztj">H121,</td><td>2019-06-10</td><td><img title="厂家/cjsl.jpg"><em>厂家受理</em></td></tr><tr><td>379800</td><td>长安汽车</td><td bid="136" sid="2368" mid="28544" fw="">逸动XT016款 1.6L GDI 自动 致酷型 XT</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379800.shtml" target="_b长安逸动XT起步时发动机噪音大怠速抖动</a></td><td class="tsgztj">A24,A38,D154,</td><td>2019-06-10</td><td><img title="信息审.jpg"><em>信息审核</em></td></tr><tr><td>379798</td><td>吉利汽车</td><td bid="172" sid="1558" mid="20653" fw="">博瑞</td><t>2015款 1.8T 尊贵型</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379798.shtml" target="_blank">吉利响要求更换发动机</a></td><td class="tsgztj">A9,</td><td>2019-06-10</td><td><img title="处理反馈" src="/images/cjhf.jpg"><emtd></tr><tr><td>379796</td><td>吉利汽车</td><td bid="172" sid="1974" mid="33049" fw="">帝豪GL</td><td>2018款 1.4T 自动 精英 class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379796.shtml" target="_blank">吉利帝豪GL转速高升挡反应慢动力消class="tsgztj">A163,B20,B334,</td><td>2019-06-10</td><td><img title="处理反馈" src="/images/cjhf.jpg"><em>处理反馈</em></tdr><td>379795</td><td>吉利汽车</td><td bid="172" sid="1974" mid="27671" fw="">帝豪GL</td><td>2017款 1.3T 自动 精英型</td><td"><a href="http://www.12365auto.com/zlts/20190610/379795.shtml" target="_blank">吉利帝豪GL变速器严重异响厂家不解决</a></td><td class="tsgztj">B33,B19,</td><td>2019-06-10</td><td><img title="处理反馈" src="/images/cjhf.jpg"><em>处理反馈</em></td><<td>379794</td><td>东风标致</td><td bid="130" sid="125" mid="26237" fw="">标致408</td><td>2016款 1.6T 自动 豪华版</td><td c<a href="http://www.12365auto.com/zlts/20190610/379794.shtml" target="_blank">东风标致408固特异轮胎侧壁有裂缝</a></td><td cF100,</td><td>2019-06-10</td><td><img title="信息审核" src="/images/zysh.jpg"><em>信息审核</em></td></tr><tr><td>379793</td车</td><td bid="172" sid="1558" mid="20654" fw="">博瑞</td><td>2015款 1.8T 旗舰型</td><td class="tsjs"><a href="http://www.to.com/zlts/20190610/379793.shtml" target="_blank">吉利博瑞变速箱挂挡不走厂家未解决</a></td><td class="tsgztj">B334,</td><t><td><img title="处理反馈" src="/images/cjhf.jpg"><em>处理反馈</em></td></tr><tr><td>379788</td><td>吉利汽车</td><td bid="1d="1487" mid="24382" fw="">帝豪</td><td>2016款 1.5L CVT 豪华版 三厢</td><td class="tsjs"><a href="http://www.12365auto.com/90610/379788.shtml" target="_blank">吉利帝豪空调制冷效果差要求吵架处理</a></td><td class="tsgztj">H101,</td><td>2019-06-10<e="处理反馈" src="/images/cjhf.jpg"><em>处理反馈</em></td></tr><tr><td>379785</td><td>东风日产</td><td bid="225" sid="690" fw="">天籁</td><td>2013款 2.0L XL 舒适版</td><td class="tsjs"><a href="http://www.12365auto.com/zlts/20190610/379785.shtml"t="_blank">东风日产天籁变速箱阀体故障无法加速</a></td><td class="tsgztj">B84,B334,</td><td>2019-06-10</td><td><img title="信/zysh.jpg"><em>信息审核</em></td></tr></table><div class="p_page"><span class="cur">1</span><a href="0-0-0-0-0-0_0-0-0-2.sh>2</a><a href="0-0-0-0-0-0_0-0-0-3.shtml">3</a><a href="0-0-0-0-0-0_0-0-0-4.shtml">4</a><a href="0-0-0-0-0-0_0-0-0-5.shtml">5</a><a href="0-0-0-0-0-0_0-0-0-6.shtml">6</a><a href="0-0-0-0-0-0_0-0-0-7.shtml">7</a><a href="0-0-0-0-0-0_0-0-0-8.shtml">8</a><a href="0-0-0-0-0-0_0-0-0-9.shtml">9</a><a href="0-0-0-0-0-0_0-0-0-10.shtml">10</a><a href="0-0-0-0-0-0_0-0-0-2.shtml">下一页</a><a href="0-0-0-0-0-0_0-0-0-8497.shtml">尾页</a></div>
+            </div>
+            <div class="tsvideo_b">
+
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="backm" value="http://m.12365auto.com/serieslist/zlts.aspx" />
+    <script type="text/javascript" src="/js/jquery-1.7.2.min.js?version=20190610" charset="gb2312"></script>
+<script type="text/javascript" src="/js/brandsHaveSeries.js?version=20190610" charset="gb2312"></script>
+<script type="text/javascript" src="/js/bindBrand2S.js?version=20190610" charset="gb2312"></script>
+<script type="text/javascript" src="/js/cTypeInfo.js?version=20190610" charset="gb2312"></script>
+
+
+    <script type="text/javascript">
+         var bid = $("#hf_carPBrand").val(),
+             sid = $("#hf_carSeries").val(),
+             mid = $("#hf_carModels").val();
+             $.bindCar.initConfig({ brandId : bid,brandName: "brands",seriesId : sid, seriesName: "series",modelsId : mid, modelsName: 'models',showModels :true,showModelsYear:false,showTipDiv : false, showType: "select"});
+             $.bindCar.bindBrands(0);
+
+             $("#series").change(function() {
+                var a = $(this).val(),
+                        b = $(this).find("option:selected").attr("optteam");
+                    if (typeof (b) == "undefined" || b == null || $.trim(b).length <= 0 || b != "brands") {
+                        $.bindCar.bindModels(a, 0);
+                    }
+                    else {
+                        $("#models").empty();
+                        $("#models").append("<option value=''>===请先选择具体车系===</option>");
+                    }
+                });
+            $(".tsvideo_b dl dt span,.tsvideo_b dl dt b").hover(function() {
+                $(this).parents("dt").next("dd").find("a").css({ "color": "#e97812", "text-decoration": "underline" });
+            }, function() {
+                $(this).parents("dt").next("dd").find("a").removeAttr("style");
+            });
+    </script>
+
+    <script type="text/javascript">
+            $(function(){
+               $(".tslb_b > table tr").not(":first" ).each(function( i, k){
+                    var _obj = $(this).find("td").eq(5),
+                        _oHtml = $.trim(_obj.html()),
+                        _oHtmlArray = {},
+                        _ctiArray = cTypeInfo || {},
+                        _oType = "",
+                        _oInfo = "",
+                        _tempHtml= "",
+                        _flag = true,
+                        _bid = $(this).find("td").eq(2).attr("bid") || "0",
+                        _sid = $(this).find("td").eq(2).attr("sid") || "0",
+                        _mid = $(this).find("td").eq(2).attr("mid") || "0",
+                        _fw = $.trim($(this).find("td").eq(2).attr("fw")),
+                        _fwTemp = ["服务态度","人员技术","服务收费","承诺不兑现","销售欺诈","配件争议","其他原因"],
+                        _haveFW = false;;
+                    //设置投诉故障
+                    if( _obj != null && _obj.length > 0 && _oHtml != null && _oHtml.length > 0){
+                        if((_oHtml.lastIndexOf(",") + 1) == _oHtml.length){
+                            _oHtml = _oHtml.substr(0,_oHtml.lastIndexOf(","));
+                        }
+                        _oHtmlArray = _oHtml.split(',');
+                        if(_oHtmlArray.length > 0){
+                            $.each( _oHtmlArray, function( _i, _k){
+                                _flag = true;
+                                _oType = _k.substr(0,1);
+                                _oInfo = _k.substr(1,_k.length-1);
+                                if(_oType != null && _oType.length > 0 && _oInfo != null && _oInfo.length > 0){
+                                    $.each(_ctiArray,function(__i,__k){
+                                        if(__k.value == _oType){
+                                            //质量问题
+                                            if(__k.zf =="z"){
+                                                _tempHtml += "<span class='bw'><a href='/zlts/" + _bid + "-" + _sid + "-0-0-0-" + __k.id + "_0-0-0-1.shtml'>" + __k.name + "</a></span>";
+                                                //质量子项显示
+                                                if(__k.items != null && __k.items.length > 0){
+                                                    $.each(__k.items,function(___i,___k){
+                                                        if(___k.id == _oInfo){
+                                                            _tempHtml += "<span class='wt'" + (__k.name.length + ___k.title.length > 16 ? " wt1" : "") + "><a href='/zlts/" + _bid + "-" + _sid + "-0-0-0-0_" + _oInfo + "-0-0-1.shtml'>" + ___k.title + "</a></span>";
+                                                            _flag = false;
+                                                        }
+                                                        if(!_flag){
+                                                            return false;
+                                                        }
+                                                   });
+                                                }
+                                            }
+                                            //服务问题
+                                            else if(__k.zf =="f"){
+                                                iTempIndexOf = $.inArray(__k.name,_fwTemp);
+                                                if(iTempIndexOf >= 0){
+                                                    _tempHtml += "<span class='fwwt'><a href='/zlts/" + _bid + "-" + _sid + "-0-0-0-0_0-" + (iTempIndexOf + 1) + "-0-1.shtml'>" + __k.name + "</a></span>";
+                                                    //服务子项显示
+                                                    if(__k.items != null && __k.items.length > 0){
+                                                        $.each(__k.items,function(___i,___k){
+                                                            if(___k.id == _oInfo){
+                                                                _tempHtml += "<span class='fw'" + (__k.name.length + ___k.title.length > 16 ? " wt1" : "") + "><a href='/zlts/" + _bid + "-" + _sid + "-0-0-0-0_" + _oInfo + "-0-0-1.shtml'>" + ___k.title + "</a></span>";
+                                                                _flag = false;
+                                                                _haveFW = true;
+                                                            }
+                                                            if(!_flag){
+                                                                return false;
+                                                            }
+                                                       });
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        if(!_flag){
+                                            return false;
+                                        }
+                                    });
+                                }
+                            });
+                        }
+
+                    }
+                    //设置投诉服务
+                    if(!_haveFW && (_fw != null && _fw.length > 0)){
+                        $.each(_fwTemp,function( _i, _k){
+                            if(_fw.indexOf(_k) >= 0){
+                                _tempHtml += "<span class=\"fwwt noSon\"><a href=\"/zlts/" + _bid + "-" + _sid + "-0-0-0-0_0-" + (_i + 1) + "-0-1.shtml\">" + _k + "</a></span>";
+                            }
+                        });
+                    }
+                    if(_tempHtml.length > 0 ){
+                        _obj.html(_tempHtml);
+                    }
+               });
+               var _brandsId = "0",
+                    _seriesId = "0",
+                    _modelsId = "0";
+                $("#brands").change(function(){
+                    _brandsId = $(this).val() || "0";
+                    window.location.href = "/zlts/" + _brandsId + "-0-0-0-0-0_0-0-0-1.shtml";
+                });
+                $("#series").change(function(){
+                    _brandsId = $("#brands").val() || "0";
+                    _seriesId = $(this).val() || "0";
+                    window.location.href = "/zlts/" + _brandsId + "-" + _seriesId + "-0-0-0-0_0-0-0-1.shtml";
+                });
+                $("#models").change(function(){
+                    _brandsId = $("#brands").val() || "0";
+                    _seriesId = $("#series").val() || "0";
+                    _modelsId = $(this).val() || "0";
+                    window.location.href = "/zlts/" + _brandsId + "-" + _seriesId + "-" + _modelsId + "-0-0-0_0-0-0-1.shtml";
+                });
+                //按钮功能绑定
+                $("#gjz_sub").click(function(){
+                    var _strKey = $("#wd").val() || "";
+                    window.location.href = "index.shtml?"+$("#hf_param").val()+"&wd="+encodeURI(encodeURI(_strKey));
+                    return false;
+                });
+            });
+    </script>
+
+    <script src="/js/P-min.js" type="text/javascript"></script>
+
+    <!--
+        创建时间：2019-06-10 16:06，用时：46.8001毫秒
+    -->
+    <script type="text/javascript"> var pageLebel = "A2|0|C1:C3:C4:C7|D1^1|0|0:0:0:0|"; </script>
+    <!--版权-->
+<div id="foot">
+    <p class="lxwm">
+        <a href="http://www.12365auto.com/copyright.shtml" target="_blank">版权声明</a>|<a href="http://www.12365auto.com/a.shtml" target="_blank">关于我们</a>|<a href="http://www.12365auto.com/contact.shtml" target="_blank">联系我们</a>|<a href=www.12365auto.com/job.shtml" target="_blank">诚聘英才</a>|<a href="http://www.12365auto.com/links.shtml" target="_blank">友a>|<a href="http://www.12365auto.com/bug" target="_blank">意见反馈</a></p>
+    <p class="bq"><b><img src="/x_images/ghs.png" /><em>京公网安备：</em><a href="http://www.beian.gov.cn/portal/registerSyfo?recordcode=11010202007639" target="_blank" class="ga">11010202007639号</a></b>|<a href="http://www.miitbeian.gov.cn" taret="_blank">京ICP备15019238号</a>|<a href="http://www.12365auto.com/audio.shtml" target="_blank">广播电视节目制作经营许可证/p>
+    <p class="bq"><span>投诉服务热线：4006123650</span>|<span>违法和不良信息举报：010-65993545-8019&nbsp;&nbsp;jubao@12365aom</span>|<span>车质网版权所有 未经许可不得转载</span></p>
+</div>
+<span style="display: none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?d08ac25fd4c45e85e8d9f1c32e97a0eb";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script src="http://s11.cnzz.com/stat.php?id=2115974&web_id=2115974" language="JavaScript"></script>
+    <script src="http://stats.12365auto.com/js/pv_count.js?v=2018" language="JavaScript"></script>
+</span>
+
+    <script type="text/javascript">
+            U.autoHeader(2);
+
+            $("#btnComplain").mouseover(function(){
+            $(this).attr("src","/x_images/ts_ico_h.gif");
+        }).mouseout(function(){
+            $(this).attr("src","/x_images/ts_ico.gif");
+        });
+
+    </script>
+
+</body>
+</html>
+
